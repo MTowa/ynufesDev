@@ -7,9 +7,13 @@
 }
 
 .button {
-	
+	color: black;
+    border: 1px solid black;
+    /* padding: ; */
+    background-color: white;
 }
 
 .button:hover {
-
+    color: white;
+    background-color: black;
 }
