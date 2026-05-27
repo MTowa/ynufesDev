@@ -7,13 +7,16 @@
 }
 
 .button {
+    text-decoration: none;
 	color: black;
     border: 1px solid black;
-    /* padding: ; */
+    padding: 10px 20px; 
     background-color: white;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .button:hover {
-    color: white;
     background-color: black;
+    color: white;
 }
