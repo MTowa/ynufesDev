@@ -10,12 +10,23 @@
 </head>
 <body>
     <div class="form-content-wrapper">
-        <p class="item">名前</p>
-        <input type="text" placeholder="名前を入力してください">
-        <p class="item">メールアドレス</p>
-        <input type="email">
-        <p class="item">お問い合わせ内容</p>
-        <input type="text">
+        <ul>
+            <li>
+                <p class="item">名前</p>
+                <input type="text" id="name" placeholder="名前を入力してください">
+            </li>
+            <li>
+                <p class="item">メールアドレス</p>
+                <input type="email" id="email">
+            </li>
+            <li>
+                <p class="item">お問い合わせ内容</p>
+                <textarea name="text" id="text"></textarea>
+            </li>
+            <li>
+                <input type="button" value="送信" id="button">
+            </li>
+        </ul>
     </div>
 </body>
 </html>
