@@ -2,6 +2,7 @@
     font-family: "Noto Sans JP", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    font-size: 20px;
 }
 
 /* headerエリア -----------------------*/
@@ -9,10 +10,8 @@
     width: 100%;
     background-color: #fff;
     display: flex;
-    justify-content: center;
     align-items: center;
-    position: relative;
-    height: 80px;
+    justify-content: space-between;
 }
 
 p{
@@ -20,8 +19,6 @@ p{
     font-weight: 400;
     font-size: 40px;
     font-style: normal;
-    position: absolute;
-    left: 20px;
 }
 
 ul{
