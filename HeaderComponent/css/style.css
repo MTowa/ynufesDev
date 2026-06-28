@@ -9,13 +9,19 @@
     width: 100%;
     background-color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 80px;
 }
 
 p{
     font-family: "Dela Gothic One", sans-serif;
     font-weight: 400;
+    font-size: 40px;
     font-style: normal;
+    position: absolute;
+    left: 20px;
 }
 
 ul{
@@ -47,6 +53,7 @@ ul{
     p{
         font-family: "Dela Gothic One", sans-serif;
         font-weight: 400;
+        font-size: 35px;
         font-style: normal;
     }
 
