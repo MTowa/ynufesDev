@@ -17,7 +17,7 @@ body {
 }
 
 .item{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -36,13 +36,15 @@ li:last-child {
 
 input{
     border-radius: 10px;
+    background-color: #cccccc9c;
+    width: 330px;
+    height: 50px;
+    border: 3px;
 }
 
 #name{
     font-size: larger;
-    width: 330px;
-    height: 50px;
-    border: 3px solid #ccc;
+    border: 3px solid #cccccc9c;
 }
 
 #name:hover{
@@ -50,9 +52,7 @@ input{
 }
 
 #email{
-    width: 330px;
-    height: 50px;
-    border: 3px solid #ccc;
+    border: 3px solid #cccccc9c;
 }
 
 #email:hover{
@@ -65,6 +65,7 @@ input{
     height: 200px;
     border-radius: 10px;
     border: 3px solid #ccc;
+    background-color: #cccccc9c;
 }
 
 #text:hover{
@@ -72,6 +73,6 @@ input{
 }
 
 #button{
-    width: 330px;
+    width: 340px;
     height: 50px;
 }
