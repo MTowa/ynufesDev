@@ -1,0 +1,46 @@
+*{
+    font-family: ;
+}
+
+/* mainエリア -----------------------*/
+.main {
+  height: 2100px;
+  background: linear-gradient(45deg, #030303, #03030366);
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-box{
+    text-align: center;
+}
+
+.footer-box:hover{
+    color: skyblue;
+    
+}
+
+h2{
+    font-family: ;
+    font-size: 2em;
+}
+
+.fotter-bottom{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-li{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
